@@ -26,8 +26,15 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <a href="https://www.linkedin.com/in/alex-arsenault-69941662/">
+              <img src="/linkedin.svg" alt="" className={styles.logo} />
+          </a>
+          <a href="https://github.com/alexarsenault">
+            <img src="/github.svg" alt="" className={styles.logo} />
+          </a>
+          <a href="mailto:alex.arsenault@gatech.edu">
+            <img src="/mail.svg" alt="" className={styles.logo} />
+          </a>
         </a>
       </footer>
     </div>

@@ -15,7 +15,9 @@ export default function Home() {
         </h1>
 
         <p className={styles.description} style={{ maxWidth: "800px"}}>
-          <img src="headshot.png" style={{width: "150px", float: "left", borderRadius: "50%", marginRight: "28px"}} /> I'm Alex placeholder.  I'm Alex placeholder.  I'm Alex placeholder.  I'm Alex placeholder.  I'm Alex placeholder. 
+          <img src="headshot.png" style={{width: "150px", float: "left", borderRadius: "50%", marginRight: "28px"}} /> 
+          I'm Alex Arsenault.  I've spent the past five years designing hardware and software for space systems. Love everything 
+          MATLAB, python, science and engineering.
         </p>
 
         <h2 className={styles.subtitle} style={{ marginTop: "3rem" }}>
@@ -23,7 +25,7 @@ export default function Home() {
         </h2>
         <div className={styles.grid}>
           <a href="/irrigation-system" className={styles.card}>
-            <h3> Pumpty Dumpty 2000 &rarr;</h3>
+            <h3> Irrigation System &rarr;</h3>
             <p>Automated house plant irrigation system using python and raspberry pi.</p>
           </a>
 
