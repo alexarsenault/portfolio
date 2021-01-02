@@ -103,7 +103,8 @@ export default function Home() {
           and see it perform so well for the in sample period.  I'm currently working on bolstering this 
           approach using a deep Q-Learning techniques where, the transition and reward functions are 
           approximated using neural nets.  Maybe with this approach and some added complexity I might be able 
-          to see some real performance with out of sample data!
+          to see some real performance with out of sample data!  Feel free to check out all the code in my 
+          repository here.
         </p>
 
     </main>
