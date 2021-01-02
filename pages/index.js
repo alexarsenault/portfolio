@@ -30,20 +30,20 @@ export default function Home() {
           </a>
 
           <a href="/ml-ds" className={styles.card}>
-            <h3>Machine Learning and Data Science &rarr;</h3>
-            <p>Exploring macine learning techniques using various kaggle data sets.</p>
+            <h3>Machine Learning with Titanic Data &rarr;</h3>
+            <p>Exploring a Titanic dataset using scikit and seaborn.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="/q-learning"
             className={styles.card}
           >
-            <h3>Reinforcement Learning Trading Algorithm &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Reinforcement Learning and Stock Trading &rarr;</h3>
+            <p>Training a Q-learning agent to trade stocks.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/attitude-determination"
             className={styles.card}
           >
             <h3>High Precision Attitude Determination Using GPS &rarr;</h3>
