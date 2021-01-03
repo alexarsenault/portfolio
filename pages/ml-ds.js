@@ -30,7 +30,7 @@ export default function Home() {
           trained a kNN model using the cleaned data. Using Seaborn to plot some predicted survival 
           percentage vs. age and class revealed some interesting and perhaps expected information. 
           Overall this kNN technique scored a 68% on out of sample data when using a gridsearch to 
-          optimize hyperparameter selection. You can check out the code here.
+          optimize hyperparameter selection.
         </p>
 
         <p className={styles.description}>
@@ -38,7 +38,7 @@ export default function Home() {
           techniques to clean the data, trained a Random Forest regression model and found that it 
           performed a bit better than kNN.  I was able to get the model to predict about 79% of out 
           of sample data points correctly.  My thought is that 4 out of 5 predictions being correct 
-          isn't too shabby for such a quick and dirty analysis.  Feel free to check out the code here.
+          isn't too shabby for such a quick and dirty analysis.
         </p>
 
         <p className={styles.description}>
@@ -47,7 +47,7 @@ export default function Home() {
           the Titanic disaster.  First class is a luxury that many people can't afford but if you were on
           board the Titanic, your life may have depended on it.  Overall, the scikit and seaborn libraries 
           worked great.  I was able to build relatively good models and generate some nice looking plots in 
-          just a few lines of code.  See some of my plots below and checkout my repo here.
+          just a few lines of code.  See some of my plots below and checkout my repo <a href="https://github.com/alexarsenault/ds-ml" style={{color:"blue"}}>here</a>.
         </p>
 
         <img src='ml_ds/class_vs_age_vs_survival.png' className={styles.image} />

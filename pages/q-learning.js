@@ -42,10 +42,10 @@ export default function Home() {
         </p>
 
         <img src='q_learning/manual_strategy_in_sample_returns.png' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Manual fixed strategy in sample performance.</span>
 
         <img src='q_learning/manual_strategy_out_sample_returns.png' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Manual fixed strategy out of sample performance.</span>
 
         <p className={styles.description}>
           In order to use reinforcement learning for trading, the problem needed to be framed  as a deterministic 
@@ -85,11 +85,7 @@ export default function Home() {
           position is taken and the price of the stock goes up, then the reward is positive and is computed 
           as the value of the shares held multiplied by the percentage increase in stock price.  Rewards 
           for short positions are computed similarly, however for short positions decreases in stock price 
-          lead to positive rewards.  
-        </p>
-
-        <p className={styles.description}>
-          The hyper-parameters used for the Q-Learner and their chosen values were:
+          lead to positive rewards.  The hyper-parameters used for the Q-Learner and their chosen values were:
         </p>
 
         <ul className={`${styles.description} ${styles.steps}`}>
@@ -112,11 +108,11 @@ export default function Home() {
           approach using a deep Q-Learning techniques where the transition and reward functions are 
           approximated using neural networks.  Maybe with this approach and some added complexity I might be able 
           to see some real performance on out of sample data!  Feel free to check out all the code in my 
-          repository here.
+          repository <a href="https://github.com/alexarsenault/q_learning_trader" style={{color:"blue"}}>here</a>.
         </p>
 
         <img src='q_learning/learner_vs_manual_portfolio.png' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Comparison of fixed strategy vs. Q-Learning vs. benchmark.</span>
 
     </main>
 

@@ -30,7 +30,7 @@ export default function Home() {
         </p>
 
         <img src='pumpty/pump.jpg' className={styles.image}/>
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Pump I used for this project.</span>
 
         <p className={styles.description}>
           I bought the motor immediately (can't beat that deal for $9) and came home and wrote up a 
@@ -60,24 +60,24 @@ export default function Home() {
         </p>
 
         <img src='pumpty/pd1.jpg' className={styles.image}/>
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Breadboarded switching circuit.</span>
 
         <p className={styles.description}>
           It was finally time to entrust the care of our plants to our homemade irrigation system. My 
           fiance was skeptical, but lo and behold our system worked beautifully.  Every day our plants 
           would be watered and we'd have photographical evidence sent to our emails as proof.  It would've 
           been easier to call a friend, but hey why not write some Python code and take advantage of 
-          spare parts laying around?  Feel free to check out all the code in my repo here!
+          spare parts laying around?  Feel free to check out all the code in my repo <a href="https://github.com/alexarsenault/pd_2000" style={{color:"blue"}}>here</a>.
         </p>
 
-        <img src='pumpty/pd2.jpg' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
-
         <img src='pumpty/pd3.jpg' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Hose setup.</span>
 
         <img src='pumpty/pd4.jpg' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>More hose setup.</span>
+
+        <img src='pumpty/pd5.png' className={styles.image} />
+        <span className={styles.caption}>Action shot of water being dispensed.</span>
 
 
       </main>
