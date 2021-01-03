@@ -51,10 +51,12 @@ export default function Home() {
         </p>
 
         <img src='ml_ds/class_vs_age_vs_survival.png' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Seaborn heatmap plot of age vs. class vs. surival percentage 
+        predicted by Random Forest.</span>
 
         <img src='ml_ds/sex_vs_age_vs_survival.png' className={styles.image} />
-        <span className={styles.caption}>This is a caption</span>
+        <span className={styles.caption}>Seaborn heatmap plot of sex vs. age vs. surival percentage 
+        predicted by Random Forest.</span>
 
       </main>
 
