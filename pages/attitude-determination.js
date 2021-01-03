@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.post}`}>
       <Head>
         <title> High Precision Attitude | Alex Arsenault</title>
         <link rel="icon" href="/favicon.ico" />

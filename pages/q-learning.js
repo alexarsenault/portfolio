@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.post}`}>
       <Head>
         <title>Q-Learning | Alex Arsenault</title>
         <link rel="icon" href="/favicon.ico" />
@@ -41,9 +41,11 @@ export default function Home() {
           improvement over the benchmark.
         </p>
 
-        <img src='q_learning/manual_strategy_in_sample_returns.png' width="600"/>
+        <img src='q_learning/manual_strategy_in_sample_returns.png' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
 
-        <img src='q_learning/manual_strategy_out_sample_returns.png' width="600"/>
+        <img src='q_learning/manual_strategy_out_sample_returns.png' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
 
         <p className={styles.description}>
           In order to use reinforcement learning for trading, the problem needed to be framed  as a deterministic 
@@ -54,7 +56,7 @@ export default function Home() {
           that maximizes future rewards.
         </p>
 
-        <ol className={styles.description}>
+        <ol className={`${styles.description} ${styles.steps}`}>
           <li>Q-table is initialized to all 0’s</li>
           <li>Current state, s, is observed</li>
           <li>Select some action, a, and execute it</li>
@@ -63,9 +65,9 @@ export default function Home() {
           <li>State is updated and steps 2-6 are repeated until total reward converges</li>
         </ol>
 
-        <ul className={styles.description}>
-          <li>Q[s,a] = Q[s,a] + ⍺(r(s,a) + *argmax(Q[s',a])-Q[s,a])        Eq. 1</li>
-        </ul>
+        <p className={`${styles.description} ${styles.equation}`}>
+          Q[s,a] = Q[s,a] + ⍺(r(s,a) + *argmax(Q[s',a])-Q[s,a])        Eq. 1
+        </p>
 
         <p className={styles.description}>
           In this analysis, states were considered to be an abstraction of the technical indicator values, 
@@ -90,7 +92,7 @@ export default function Home() {
           The hyper-parameters used for the Q-Learner and their chosen values were:
         </p>
 
-        <ul className={styles.description}>
+        <ul className={`${styles.description} ${styles.steps}`}>
           <li>⍺ (learning rate): 0.2 - Specifies how much new Q-values are weighted vs. old ones during 
             the Q-table update process. </li>
           <li>𝛾 (discount factor): 0.9 - How much much future rewards are valued vs. immediate rewards 
@@ -113,7 +115,8 @@ export default function Home() {
           repository here.
         </p>
 
-        <img src='q_learning/learner_vs_manual_portfolio.png' width="600"/>
+        <img src='q_learning/learner_vs_manual_portfolio.png' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
 
     </main>
 

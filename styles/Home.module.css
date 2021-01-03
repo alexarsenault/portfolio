@@ -118,9 +118,48 @@
   height: 2rem;
 }
 
+.post {
+  margin: 0 15%;
+}
+
+.equation {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.75rem; 
+}
+
+.steps {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 2;
+}
+
+.caption {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+.image {
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .image {
+    max-width: 300px;
+    width: 300px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.25rem;
+  }
+  .post {
+    margin: 0 16px;
   }
 }

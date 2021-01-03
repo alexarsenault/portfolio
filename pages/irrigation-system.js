@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.post}`}>
       <Head>
         <title>Automated Home Irrigation System | Alex Arsenault</title>
         <link rel="icon" href="/favicon.ico" />
@@ -29,7 +29,8 @@ export default function Home() {
           pump for a few seconds and water our plants!
         </p>
 
-        <img src='pumpty/pump.jpg' width="600"/>
+        <img src='pumpty/pump.jpg' className={styles.image}/>
+        <span className={styles.caption}>This is a caption</span>
 
         <p className={styles.description}>
           I bought the motor immediately (can't beat that deal for $9) and came home and wrote up a 
@@ -58,7 +59,8 @@ export default function Home() {
           watering session. The entire device setup can be seen below.
         </p>
 
-        <img src='pumpty/pd1.jpg' height="600"/>
+        <img src='pumpty/pd1.jpg' className={styles.image}/>
+        <span className={styles.caption}>This is a caption</span>
 
         <p className={styles.description}>
           It was finally time to entrust the care of our plants to our homemade irrigation system. My 
@@ -68,9 +70,14 @@ export default function Home() {
           spare parts laying around?  Feel free to check out all the code in my repo here!
         </p>
 
-        <img src='pumpty/pd2.jpg' height="600"/>
-        <img src='pumpty/pd3.jpg' height="600"/>
-        <img src='pumpty/pd4.jpg' height="600"/>
+        <img src='pumpty/pd2.jpg' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
+
+        <img src='pumpty/pd3.jpg' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
+
+        <img src='pumpty/pd4.jpg' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
 
 
       </main>

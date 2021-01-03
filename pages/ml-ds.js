@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.post}`}>
       <Head>
         <title>Titanic Dataset | Alex Arsenault</title>
         <link rel="icon" href="/favicon.ico" />
@@ -50,8 +50,11 @@ export default function Home() {
           just a few lines of code.  See some of my plots below and checkout my repo here.
         </p>
 
-        <img src='ml_ds/class_vs_age_vs_survival.png' height="600"/>
-        <img src='ml_ds/sex_vs_age_vs_survival.png' height="600"/>
+        <img src='ml_ds/class_vs_age_vs_survival.png' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
+
+        <img src='ml_ds/sex_vs_age_vs_survival.png' className={styles.image} />
+        <span className={styles.caption}>This is a caption</span>
 
       </main>
 
