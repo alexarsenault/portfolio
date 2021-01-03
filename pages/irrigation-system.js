@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Irrigation System | Alex Arsenault</title>
+        <title>Automated Home Irrigation System | Alex Arsenault</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Irrigation System
+          Automated Home Irrigation System
         </h1>
 
         <p className={styles.description}>
@@ -29,6 +29,8 @@ export default function Home() {
           pump for a few seconds and water our plants!
         </p>
 
+        <img src='pumpty/pump.jpg' width="600"/>
+
         <p className={styles.description}>
           I bought the motor immediately (can't beat that deal for $9) and came home and wrote up a 
           quick python script that would toggle a raspberry gpio pin for a few every 24 hours. The pump 
@@ -39,7 +41,7 @@ export default function Home() {
           And voila, the automated irrigation system was alive!
         </p>
 
-        <p className={styles.description}>
+      <p className={styles.description}>
           Next I needed some way to distribute the water from the pump to the plants that needed 
           watering.  I found some cheap 8mm plastic tubing at Home Depot for $3.99, poked small holes 
           in the tubing where each plant would be, and then sealed the end of tube.  This would be the 
@@ -53,20 +55,22 @@ export default function Home() {
           didn't want to be at the edge of our seats wondering whether they were alive for weeks on end. 
           Luckily I had a camera attachment for my raspberry pi that connected up and wrote some 
           python code to automatically take a picture of our plants and send an email during each 
-          watering session.
+          watering session. The entire device setup can be seen below.
         </p>
+
+        <img src='pumpty/pd1.jpg' height="600"/>
 
         <p className={styles.description}>
           It was finally time to entrust the care of our plants to our homemade irrigation system. My 
           fiance was skeptical, but lo and behold our system worked beautifully.  Every day our plants 
           would be watered and we'd have photographical evidence sent to our emails as proof.  It would've 
           been easier to call a friend, but hey why not write some Python code and take advantage of 
-          spare parts laying around?
+          spare parts laying around?  Feel free to check out all the code in my repo here!
         </p>
 
-        <p className={styles.description}>
-          Link to my repo here!
-        </p>
+        <img src='pumpty/pd2.jpg' height="600"/>
+        <img src='pumpty/pd3.jpg' height="600"/>
+        <img src='pumpty/pd4.jpg' height="600"/>
 
 
       </main>

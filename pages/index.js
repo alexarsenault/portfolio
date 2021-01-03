@@ -25,8 +25,8 @@ export default function Home() {
         </h2>
         <div className={styles.grid}>
           <a href="/irrigation-system" className={styles.card}>
-            <h3> Irrigation System &rarr;</h3>
-            <p>Automated house plant irrigation system using python and raspberry pi.</p>
+            <h3> Automated Home Irrigation System &rarr;</h3>
+            <p>Automated plant watering system using python and raspberry pi.</p>
           </a>
 
           <a href="/ml-ds" className={styles.card}>

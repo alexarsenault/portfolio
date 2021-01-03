@@ -18,31 +18,37 @@ export default function Home() {
           In order to learn more about reinforcement learning, I decided I'd try to train a Q-Learning 
           agent to trade stocks using a simple technique, Q-Learning.  One of the nice things about using 
           reinforcement learning to trade stocks vs. regression is that the agent makes the decisions for 
-          you (as opposed to simply a prediction), which takes the human element out of the loop. For 
-          someone like myself with not a lot of trading experience this is perfect. By using reinforcement 
-          learning, a policy can be learned which makes decisions that optimizes rewards.
+          you (as opposed to simply a prediction) about when to take an action and how long to hold a position,
+          which takes the human element out of the loop. For someone like myself with not a lot of professional 
+          trading experience, this is perfect. By using reinforcement learning, a policy can be learned 
+          which makes decisions that optimizes rewards.
         </p>
 
         <p className={styles.description}>
-          The main approach I would take would be to compare a trading policy based on a fixed set of rules 
+          The main approach I took was to compare a trading policy based on a fixed set of rules 
           vs. a trading policy implemented using a trained Q-Learning agent.  The fixed rule approach was 
           implemented using a logical condition based on a set of commonly used technical indicators, while 
           the Q-Learning agent would be trained on those same indicators.  I'd use the same stock data to 
-          train and evaluate both policies and assume that one 1 stock could be included in my portfolio. 
+          train and evaluate both policies and assume that for the sake of simplicity, one 1 stock could be 
+          included in my portfolio. 
         </p>
 
         <p className={styles.description}>
-          The fixed rule strategy beat the benchmark portfolio for both in sample and out of sample periods.  
-          Although not by much!  For both instances, only a few trades were made.  The plots below show 
+          The fixed rule strategy I created beat the benchmark portfolio for both in sample and out of sample
+           periods,although not by much.  For both instances, only a few trades were made.  The plots below show 
           performance vs. benchmark and the different entry points.  Risk adjusted return was similar for 
           the in sample periods, but for the out of sample period, the strategy provided a significant 
           improvement over the benchmark.
         </p>
 
+        <img src='q_learning/manual_strategy_in_sample_returns.png' width="600"/>
+
+        <img src='q_learning/manual_strategy_out_sample_returns.png' width="600"/>
+
         <p className={styles.description}>
-          In order to use reinforcement learning for this problem, it needed to be framed  as a deterministic 
+          In order to use reinforcement learning for trading, the problem needed to be framed  as a deterministic 
           Markov Decision Process (MDP).  In order to do this, the relevant information was broken down into 
-          states, actions, and rewards.  The Q-Learning algorithm aims to update a Q-table (a function of 
+          states, actions, and rewards.  Q-Learning aims to update a Q-table (a function of 
           state, and action) through the process of exploration and observation as described below.  Once 
           the Q-table is sufficiently trained, it can be used to take actions based on the current state 
           that maximizes future rewards.
@@ -101,11 +107,13 @@ export default function Home() {
           out of sample data, the Q-Learning performance was pretty inconsistent, so you probably shouldn't 
           bet your life savings on this technique!  Overall, it was pretty cool to build a Q-Learning agent 
           and see it perform so well for the in sample period.  I'm currently working on bolstering this 
-          approach using a deep Q-Learning techniques where, the transition and reward functions are 
-          approximated using neural nets.  Maybe with this approach and some added complexity I might be able 
-          to see some real performance with out of sample data!  Feel free to check out all the code in my 
+          approach using a deep Q-Learning techniques where the transition and reward functions are 
+          approximated using neural networks.  Maybe with this approach and some added complexity I might be able 
+          to see some real performance on out of sample data!  Feel free to check out all the code in my 
           repository here.
         </p>
+
+        <img src='q_learning/learner_vs_manual_portfolio.png' width="600"/>
 
     </main>
 

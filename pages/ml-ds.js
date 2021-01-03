@@ -46,9 +46,12 @@ export default function Home() {
           the plot for class. It was almost like the data was telling a grim story about the reality of 
           the Titanic disaster.  First class is a luxury that many people can't afford but if you were on
           board the Titanic, your life may have depended on it.  Overall, the scikit and seaborn libraries 
-          worked great.  I was able to get relatively good performance of my models in just a few lines of 
-          code.
+          worked great.  I was able to build relatively good models and generate some nice looking plots in 
+          just a few lines of code.  See some of my plots below and checkout my repo here.
         </p>
+
+        <img src='ml_ds/class_vs_age_vs_survival.png' height="600"/>
+        <img src='ml_ds/sex_vs_age_vs_survival.png' height="600"/>
 
       </main>
 
