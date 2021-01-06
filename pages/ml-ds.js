@@ -15,11 +15,11 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I thought it'd be interesting to play around with some datasets using some basic ML techniques 
-          from the Scikit and Seaborns python libraries. In the past I've found some great datasets from 
+          I thought it'd be interesting to play around with some datasets using some ML techniques 
+          from the Scikit and plot function from Seaborn. In the past I've found some great datasets from 
           Kaggle, so I figured that would be a good place to start.  After poking around I found a pretty 
           cool dataset/challenge that seems to be pretty popular on the site.  The data set is a partial 
-          list of members onboard the Titanic along with some info about them and  whether or not they 
+          list of members onboard the Titanic along with some info about them and whether or not they 
           survived.  The goal of the challenge is to build a model to predict whether the remaining 
           passengers survived.
         </p>
@@ -43,11 +43,12 @@ export default function Home() {
 
         <p className={styles.description}>
           Looking at the plots of predicted survival percentage vs age and class was interesting. Especially 
-          the plot for class. It was almost like the data was telling a grim story about the reality of 
-          the Titanic disaster.  First class is a luxury that many people can't afford but if you were on
-          board the Titanic, your life may have depended on it.  Overall, the scikit and seaborn libraries 
-          worked great.  I was able to build relatively good models and generate some nice looking plots in 
-          just a few lines of code.  See some of my plots below and checkout my repo <a href="https://github.com/alexarsenault/ds-ml" style={{color:"blue"}}>here</a>.
+          the plot for class. It was almost like the model was telling a grim story about the reality of 
+          the Titanic disaster.  The model seemed to suggest that first class passengers, younger children, 
+          and females seemed to have an overall higher change of survival, which seems to make a lot of sense.  
+          Scikit and Seaborn libraries worked great.  I was able to build relatively accurate models and generate 
+          some nice looking plots (which you can see below) in just a few lines of code.  Feel free to check 
+          out all of my code in my repository <a href="https://github.com/alexarsenault/ds-ml" style={{color:"blue"}}>here</a>.
         </p>
 
         <img src='ml_ds/class_vs_age_vs_survival.png' className={styles.image} />
