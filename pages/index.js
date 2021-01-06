@@ -29,7 +29,7 @@ export default function Home() {
             <p>Automated plant watering system using python and raspberry pi.</p>
           </a>
 
-          <a href="/ml-ds" className={styles.card}>
+          <a href="/ml-ds-titanic" className={styles.card}>
             <h3>Machine Learning with Titanic Data &rarr;</h3>
             <p>Exploring a Titanic dataset using scikit and seaborn.</p>
           </a>
@@ -43,6 +43,14 @@ export default function Home() {
           </a>
 
           <a
+            href="/ml-ds-housing"
+            className={styles.card}
+          >
+            <h3>Machine Learning with Housing Data &rarr;</h3>
+            <p>Predicting home prices using regression.</p>
+          </a>
+
+          <a
             href="/attitude-determination"
             className={styles.card}
           >
@@ -53,28 +61,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* <h2 className={styles.subtitle} style={{ marginTop: "3rem"}}>
-          Blog Posts
-        </h2>
-        <div className={styles.grid}>
-          <a href="/irrigation-system" className={styles.card}>
-            <h3>Post 1 &rarr;</h3>
-            <p>Lorem ipsum</p>
-          </a>
-
-          <a href="/ml-ds" className={styles.card}>
-            <h3>Post 2 &rarr;</h3>
-            <p>Lorem ipsum</p>
-          </a>
-          <a href="/ml-ds" className={styles.card}>
-            <h3>Post 2 &rarr;</h3>
-            <p>Lorem ipsum</p>
-          </a>
-          <a href="/ml-ds" className={styles.card}>
-            <h3>Post 2 &rarr;</h3>
-            <p>Lorem ipsum</p>
-          </a>
-          </div> */}
       </main>
 
       <footer className={styles.footer}>

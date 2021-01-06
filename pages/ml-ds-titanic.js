@@ -51,11 +51,11 @@ export default function Home() {
           out all of my code in my repository <a href="https://github.com/alexarsenault/ds-ml" style={{color:"blue"}}>here</a>.
         </p>
 
-        <img src='ml_ds/class_vs_age_vs_survival.png' className={styles.image} />
+        <img src='ml_ds_titanic/class_vs_age_vs_survival.png' className={styles.image} />
         <span className={styles.caption}>Seaborn heatmap plot of age vs. class vs. surival percentage 
         predicted by Random Forest.</span>
 
-        <img src='ml_ds/sex_vs_age_vs_survival.png' className={styles.image} />
+        <img src='ml_ds_titanic/sex_vs_age_vs_survival.png' className={styles.image} />
         <span className={styles.caption}>Seaborn heatmap plot of sex vs. age vs. surival percentage 
         predicted by Random Forest.</span>
 
