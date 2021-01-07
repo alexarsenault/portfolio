@@ -56,7 +56,7 @@ export default function Home() {
           </ol>
        
 
-        <p className={styles.description}>A quick plot the overall quality feature vs. sale price shows that there does 
+        <p className={styles.description}>A quick plot of the 'overall quality' feature vs. 'sale price' shows that there does 
           seem to be a pretty clear relationship between these two features.  Unfortunately 
           the feature 'overall quality' does seem pretty subjective, but I think this goes 
           to show that the overall nice-ness of a home, for example let's say the kitchen 
