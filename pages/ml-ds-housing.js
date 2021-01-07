@@ -56,7 +56,7 @@ export default function Home() {
           </ol>
        
 
-        <p className={styles.description}>A quick plot of the 'overall quality' feature vs. 'sale price' shows that there does 
+        <p className={styles.description}>A quick box plot of the 'overall quality' feature vs. 'sale price' shows that there does 
           seem to be a pretty clear relationship between these two features.  Unfortunately 
           'overall quality' does seem a bit subjective, but I think this goes 
           to show that the overall nice-ness of a home, for example let's say the kitchen 
@@ -64,7 +64,7 @@ export default function Home() {
           more is that the relationship doesn't neccesarily seem linear.
         </p>
 
-        <img src='ml_ds_housing/qual_price_scatter.png' className={styles.image} />
+        <img src='ml_ds_housing/qual_price_box.png' className={styles.image} />
         <span className={styles.caption}>Scatter plot of overall quality rating vs. sale price.</span>
 
       <p className={styles.description}>
