@@ -38,7 +38,7 @@ export default function Home() {
         <span className={styles.caption}>Correlation matrix for all features in this housing dataset.</span>
 
         <p className={styles.description}>
-          As it turns out, the top correlated features in this dataset are: 
+          As it turns out, the features that are mostly highly correlated with price are: 
         </p>
           <ol className={`${styles.description} ${styles.steps}`}>
           <li>OverallQual - overall quality of the house</li>
