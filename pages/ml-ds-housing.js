@@ -25,12 +25,12 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
-          The dataset has over 30 columns of info on each data point so before diving into any kind of machine,
-           learning analysis, I wanted to figure out which variables were important to price.  In other 
+          The dataset has over 30 columns of info on each data point so before diving into any kind of machine
+           learning, I wanted to figure out which variables were important to price.  In other 
            words, which features had a strong correlation with price.  In order to do this, I created a 
            correlation matrix of all the features.  What was important to me was correlation with 
            sale price, but some of the other correlation relationships were interesting as well.  Below you 
-           can see this correlation matrix heat plot  I've found this is usually a good place to start 
+           can see this correlation matrix heat plot.  I've found this is usually a good place to start 
            with any kind of machine learning analysis.
         </p>
 
