@@ -30,7 +30,7 @@ export default function Home() {
            words, which features had a strong correlation with price.  In order to do this, I created a 
            correlation matrix of all the features.  What was important to me was correlation with 
            sale price, but some of the other correlation relationships were interesting as well.  Below you 
-           can see some the referenced correlation matrix.  I've found this is usually a good place to start 
+           can see this correlation matrix heat plot  I've found this is usually a good place to start 
            with any kind of machine learning analysis.
         </p>
 
@@ -61,7 +61,7 @@ export default function Home() {
           the feature 'overall quality' does seem pretty subjective, but I think this goes 
           to show that the overall nice-ness of a home, for example let's say the kitchen 
           was just recently rennovated, does play a significant role in sale price.  What's 
-          more is that the relationship doesn't neccesarily seem very linear.
+          more is that the relationship doesn't neccesarily seem linear.
         </p>
 
         <img src='ml_ds_housing/qual_price_scatter.png' className={styles.image} />
@@ -98,7 +98,7 @@ export default function Home() {
 
     <p className={styles.description}>
         Overall the Lasso regression model performed pretty well predicting over 78% of out of sample 
-        data points accurately.  Much better than random forest, but I think I'll still be hiring a realor 
+        data points accurately.  Much better than random forest, but I think I'll still be hiring a realtor 
         when I'm ready to buy a house!  Feel free to check out all of my code <a href="https://github.com/alexarsenault/ds-ml" style={{color:"blue"}}>here</a>, 
         and credit to Jan Kirenz for some of the lambda plotting code. 
     </p>
