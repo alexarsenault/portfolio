@@ -88,12 +88,12 @@ export default function Home() {
       squared error).  Lasso can be really great for optimizing a fit with smaller data sets because at the expense of adding bias 
       to your model, it can minimize variance, i.e. prevent overfitting.  The optimal lambda value is solved for using cross validation, 
       where the training data is chunked up and the the penalty term that results in minimal variance is chosen. 
-      You can see in the plot below that R^2 of our model decreases if lambda is too high which suggests that 
+      You can see in the plot below that R<sup>2</sup> of our model decreases if lambda is too high which suggests that 
       there is indeed some optimal value.
     </p>
 
     <img src='ml_ds_housing/lambda_lasso_effect.png' className={styles.image} />
-      <span className={styles.caption}>R^2 vs. lambda selection for Lasso linear regression.</span>
+      <span className={styles.caption}>R<sup>2</sup> vs. &#955; selection for Lasso linear regression.</span>
 
 
     <p className={styles.description}>
