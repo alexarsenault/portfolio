@@ -16,7 +16,7 @@ export default function Home() {
 
         <p className={styles.description}>
           In order to learn more about reinforcement learning, I decided I'd try to train a Q-Learning 
-          agent to trade stocks using a simple technique, Q-Learning.  One of the nice things about using 
+          agent to trade stocks.  One of the nice things about using 
           reinforcement learning to trade stocks vs. regression is that the agent makes the decisions for 
           you (as opposed to simply a prediction) about when to take an action and how long to hold a position,
           which takes the human element out of the loop. For someone like myself with not a lot of professional 
