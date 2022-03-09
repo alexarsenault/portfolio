@@ -56,7 +56,7 @@ export default function Home() {
           >
             <h3>High Precision Attitude Determination Using GPS &rarr;</h3>
             <p>
-              Coming soon!
+              Using a hexagonal receiver platform to determine precise GPS positioning.
             </p>
           </a>
         </div>

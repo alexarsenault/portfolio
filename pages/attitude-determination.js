@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Paper is currently pending peer review - check back soon to learn more!
+        <a href="https://www.cscjournals.org/library/manuscriptinfo.php?mc=SPIJ-299">Link to paper</a>
         </p>
 
 
