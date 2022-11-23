@@ -16,8 +16,8 @@ export default function Home() {
 
         <p className={styles.description} style={{ maxWidth: "800px"}}>
           <img src="headshot.png" style={{width: "150px", float: "left", borderRadius: "50%", marginRight: "28px"}} /> 
-          I'm Alex Arsenault.  I've spent the past five years designing hardware and software for space systems. Love everything 
-          MATLAB, python, science and engineering.
+          I'm Alex Arsenault.  I've spent the past eight years building analytics, hardware, and software for space systems. Love everything 
+          python, science, engineering, and space! Below is a sampling of some personal projects I've worked on!
         </p>
 
         <h2 className={styles.subtitle} style={{ marginTop: "3rem" }}>
