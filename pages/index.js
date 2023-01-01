@@ -25,6 +25,12 @@ export default function Home() {
           Projects
         </div>
         <div className={styles.grid}>
+          
+          <Link href="/fifa-notebook" className={styles.card}>
+            <h3> Simulating Fifa World Cup &rarr;</h3>
+            <p>Model outcomes of games and simulate the World Cup results.</p>
+          </Link>
+
           <Link href="/irrigation-system" className={styles.card}>
             <h3> Automated Home Irrigation System &rarr;</h3>
             <p>Automated plant watering system using python and raspberry pi.</p>
