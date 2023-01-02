@@ -16,7 +16,8 @@ export default function Home() {
             notebookInputLanguage="python"
             inputMarkdownDarkTheme="true"
             outputDarkTheme="true"
-            // Rest of the properties if required.
+            inputDarkTheme="true"
+            inputCodeDarkTheme="true"
         />
 
         <footer className={styles.footer}>
