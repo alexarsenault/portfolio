@@ -10,19 +10,6 @@ function Notebook(props) {
     <div className={`${styles.post}`}>
         {notebook}
     </div>
-    
-    <footer className={styles.footer}>
-        <Link href="https://www.linkedin.com/in/alex-arsenault-69941662/">
-            <img src="/linkedin.svg" alt="" className={styles.logo} />
-        </Link>
-        <Link href="https://github.com/alexarsenault">
-        <img src="/github.svg" alt="" className={styles.logo} />
-        </Link>
-        <Link href="mailto:alex.arsenault@gatech.edu">
-        <img src="/mail.svg" alt="" className={styles.logo} />
-        </Link>
-    </footer>
-
     </>;
 }
 
