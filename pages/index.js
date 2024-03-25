@@ -17,14 +17,20 @@ export default function Home() {
 
         <div className={styles.description} style={{ maxWidth: "800px"}}>
           <img src="headshot.png" style={{width: "150px", float: "left", borderRadius: "50%", marginRight: "28px"}} /> 
-          I'm Alex Arsenault.  I've spent the past eight years building analytics, hardware, and software for space systems. Love everything 
-          python, science, engineering, and space! Below is a sampling of some personal projects I've worked on!
+          I'm Alex Arsenault.  I'm a machine learning engineer that's spent the past 10 years building analytics, hardware, and software for things that fly, orbit, and explore.  
+          I'm always looking for new opportunities to learn and grow and I'm excited to share some of the projects I've worked on.
         </div>
 
         <div className={styles.subtitle} style={{ marginTop: "3rem" }}>
           Projects
         </div>
         <div className={styles.grid}>
+
+          <Link href="/transformers" className={styles.card}>
+            <h3> Exploring Attention and Transformers &rarr;</h3>
+            <p>Delving into the power of self attention.</p>
+          </Link>
+
           
           <Link href="/fifa-notebook" className={styles.card}>
             <h3> Simulating Fifa World Cup &rarr;</h3>
