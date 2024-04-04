@@ -17,8 +17,8 @@ export default function Home() {
 
         <div className={styles.description} style={{ maxWidth: "800px"}}>
           <img src="headshot.png" style={{width: "150px", float: "left", borderRadius: "50%", marginRight: "28px"}} /> 
-          I'm Alex Arsenault, a machine learning engineer based in Boston, MA. I've spent the past 10 years developing analytics, hardware, and software for 
-          things that fly, orbit, and explore and I'm always looking for new opportunities to learn and grow. These are a few of the personal projects I've worked on.  
+          I'm Alex Arsenault, a machine learning engineer based in Boston, Massachusetts. I've spent the past 10 years developing analytics, hardware, and software for 
+          things that fly, orbit, and explore and I'm always looking for new opportunities to learn and grow. 
         </div>
 
         <div className={styles.subtitle} style={{ marginTop: "3rem" }}>

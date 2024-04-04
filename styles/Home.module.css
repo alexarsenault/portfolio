@@ -129,8 +129,8 @@
 }
 
 .steps {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 2;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* line-height: 2; */
 }
 
 .caption {
@@ -144,6 +144,12 @@
   margin-bottom: 1rem;
 }
 
+.bigimage {
+  max-width: 1200px;
+  margin-bottom: 1rem;
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -152,6 +158,11 @@
   .image {
     max-width: 300px;
     width: 300px;
+  }
+  .bigimage {
+    max-width: 300px;
+    width: 300px;
+    margin-bottom: 1rem;
   }
   .title {
     font-size: 2rem;
